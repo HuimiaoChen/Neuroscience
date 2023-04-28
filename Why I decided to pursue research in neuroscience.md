@@ -1,0 +1,10 @@
+# Why I decided to pursue research in neuroscience
+
+1. I have always been passionate about physics. When I was a high school student, I was fortunate to be selected for the Zhejiang provincial team in the Chinese Physics Olympiad, which led to my admission to Tsinghua University. Unfortunately, I didn't continue studying physics in college, but my love for the subject persisted. Now, I am unable to switch directly to physics, but neuroscience is a discipline closely related to it. I hope to take this opportunity to return to the field of natural sciences. I recall a saying: "Physics is the most interesting thing in the world, followed by neuroscience."
+
+2. I had experience in electromyography (EMG) signal recognition. This experience introduced me to neuroscience and gradually deepened my interest in the field. I realized that neuroscience, as a foundational science, has a wide range of practical applications.
+
+3. I began to ponder philosophical questions. At one point, I lost a significant amount of money in investments, which led me to contemplate philosophical issues and even brought me close to depression. Gradually, I discovered that I could only explore philosophy through science, and neuroscience and physics emerged as the most promising disciplines to take me there. Neuroscience is currently more feasible for me, and it will, along with philosophy, become my lifelong pursuit.
+
+4. I have the financial means to engage in long-term scientific research. Fortunately, I was involved in entrepreneurship and some profitable work during the tumultuous years of China's capital market. Now, I feel it is time to wholeheartedly return to research. If I am not committed to making long-term contributions to economic development, I will instead focus on advancing the frontiers of science.
+5. I believe that humanity is on the cusp of entering the era of intelligence. Neuroscience and artificial intelligence will play critical roles in unlocking this new age. Before intelligence surpasses the human brain, this is the final moment for the human brain as an intellectual worker, and I don't want to miss it.
