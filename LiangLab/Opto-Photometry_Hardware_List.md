@@ -30,7 +30,7 @@ The schematic:
 
 Material (including the BOM and Gerber files): https://github.com/xzhang03/NidaqGUI/tree/master/PCBs/Shifter
 
-## PCB for LED cue
+## LED cue
 
 This cue can be used in both unconditional and conditional behavioral tasks, but cues are optional. (1) In the unconditional scenario, the cue signal is given before the food TTL. (2)In the conditional scenario, the cue signal is given before the action and food windows; then if there is an action (e.g., licking), the food TTL is triggered.
 
@@ -42,7 +42,7 @@ The schematic:
 
 Material (including the BOM and Gerber files): https://github.com/xzhang03/NidaqGUI/tree/master/PCBs/LED%20cue
 
-## Dimmable RGB module (I2C)
+## Dimmable RGB module (I2C-based LED cue)
 
 This is an I2C version of LED cue delivery. The PCA9685 board is used.
 
