@@ -20,9 +20,9 @@ Note:
 - `'red_dFFMeanValues'` and `'green_dFFMeanValues'` have 49 columns,where the last column should be excluded. They are supposed to have 3 rows (3 rounds), but `'CL090_230518'` only has 2 rows.
 - In `'CL083_230413'`, elements in `'red_dFFMeanValues'` have 2 columns (10 × 2， should be 10 × 1), so `'CL083_230413'` is not used.
 
-**Sample**: `'CL090_230515'`.
+The cell used in this report is **Sample**: `'CL090_230515'`.
 
-**Data shape**:
+**Data shape** of **Sample**: `'CL090_230515'`:
 
 |                    | Train data                | Test data              |
 | ------------------ | ------------------------- | ---------------------- |
@@ -63,9 +63,9 @@ Some coefficients are negative. **Is it reasonable???** Explanation: higher conc
 | Mean squared error      | 0.0061596970599993445 | 0.007927335708322457 |
 | Correlation coefficient | 0.6571303587882936    | 0.6140976886111208   |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Linear Regression, Train Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Ordinary Linear Regression, Train Set).png)
+![Comparison (Linear Regression, Train Set)](pics_CL090_230515\Comparison (Ordinary Linear Regression, Train Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Linear Regression, Test Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Ordinary Linear Regression, Test Set).png)
+![Comparison (Linear Regression, Test Set)](pics_CL090_230515\Comparison (Ordinary Linear Regression, Test Set).png)
 
 ### Ridge Linear Regression
 
@@ -93,9 +93,9 @@ Fitted Intercept: -0.003992042396819981
 | Mean squared error      | 0.00617267529320373 | 0.008058648873285792 |
 | Correlation coefficient | 0.6562194390940245  | 0.6047541953182045   |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Linear Regression, Train Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Ridge Linear Regression, Train Set).png)
+![Comparison (Linear Regression, Train Set)](pics_CL090_230515\Comparison (Ridge Linear Regression, Train Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Linear Regression, Train Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Ridge Linear Regression, Test Set).png)
+![Comparison (Linear Regression, Train Set)](pics_CL090_230515\Comparison (Ridge Linear Regression, Test Set).png)
 
 ### Elasticnet Linear Regression
 
@@ -133,9 +133,9 @@ Fitted Intercept: -0.004587622786060119
 | Mean squared error      | 0.006385274236585692 | 0.008246618904776503 |
 | Correlation coefficient | 0.6428087118878939   | 0.593481482809575    |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Linear Regression, Train Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Elasticnet Linear Regression, Train Set).png)
+![Comparison (Linear Regression, Train Set)](pics_CL090_230515\Comparison (Elasticnet Linear Regression, Train Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Linear Regression, Train Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Elasticnet Linear Regression, Test Set).png)
+![Comparison (Linear Regression, Train Set)](pics_CL090_230515\Comparison (Elasticnet Linear Regression, Test Set).png)
 
 ## Power-Law Regression
 
@@ -171,9 +171,9 @@ $C=5$.
 | Mean squared error      | 0.005965096684632098 | 0.007801938801087381 |
 | Correlation coefficient | 0.6706493415945699   | 0.6219617870348478   |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression (Exponent=5), Test Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=5, Test Set).png)
+![Comparison (Power-Law Regression (Exponent=5), Test Set)](pics_CL090_230515\Comparison (Power-Law Regression Exponent=5, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression (Exponent=5), Test Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=5, Train Set).png)
+![Comparison (Power-Law Regression (Exponent=5), Test Set)](pics_CL090_230515\Comparison (Power-Law Regression Exponent=5, Train Set).png)
 
 ### Example: Exponent = 5 (only fit A and D)
 
@@ -197,9 +197,9 @@ Fitted Coefficients: [ 8.28301566e-03  7.56874223e-03  2.17645374e-04 -2.0626993
 
 \* Correlation coefficient is not a good metric for nonlinear regression so that we see the number of Test data is larger than that of Train data.
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression (Exponent=5), Test Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=5, only fit A and D, Test Set).png)
+![Comparison (Power-Law Regression (Exponent=5), Test Set)](pics_CL090_230515\Comparison (Power-Law Regression Exponent=5, only fit A and D, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression (Exponent=5), Test Set)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=5, only fit A and D, Train Set).png)
+![Comparison (Power-Law Regression (Exponent=5), Test Set)](pics_CL090_230515\Comparison (Power-Law Regression Exponent=5, only fit A and D, Train Set).png)
 
 Basically, only fitting $A$, $D$ fails to provide a good result.
 
@@ -215,9 +215,9 @@ Basically, only fitting $A$, $D$ fails to provide a good result.
 | Mean squared error      | 0.01045316636333401 | 0.012553698090272793 |
 | Correlation coefficient | 0.4156817350556336  | 0.5492586362659945   |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=1 over 95, Test Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=1 over 95, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=1 over 95, Train Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=1 over 95, Train Set).png)
 
 **Exponent: 30/43**
 
@@ -227,9 +227,9 @@ Basically, only fitting $A$, $D$ fails to provide a good result.
 | Mean squared error      | 0.006160312058280804 | 0.007927645253546677 |
 | Correlation coefficient | 0.6570871953391387   | 0.6140764914279518   |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=30 over 43, Test Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=30 over 43, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=30 over 43, Train Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=30 over 43, Train Set).png)
 
 **Exponent: 179/65**
 
@@ -239,9 +239,9 @@ Basically, only fitting $A$, $D$ fails to provide a good result.
 | Mean squared error      | 0.0059664793888465975 | 0.0077922987749738555 |
 | Correlation coefficient | 0.6705542454661818    | 0.6224739461963064    |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=179 over 65, Test Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=179 over 65, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=179 over 65, Train Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=179 over 65, Train Set).png)
 
 **Exponent: 221/33**
 
@@ -251,9 +251,9 @@ Basically, only fitting $A$, $D$ fails to provide a good result.
 | Mean squared error      | 0.0059651110041034  | 0.007804194315316004 |
 | Correlation coefficient | 0.6706483564323005  | 0.6218374974348415   |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=221 over 33, Test Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=221 over 33, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=221 over 33, Train Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=221 over 33, Train Set).png)
 
 **Exponent: 219/23**
 
@@ -263,9 +263,9 @@ Basically, only fitting $A$, $D$ fails to provide a good result.
 | Mean squared error      | 0.005965205069629524 | 0.00780588812404452 |
 | Correlation coefficient | 0.6706418874831295   | 0.6217442394863175  |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=219 over 23, Test Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=219 over 23, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=219 over 23, Train Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=219 over 23, Train Set).png)
 
 **Exponent: 300/17**
 
@@ -275,9 +275,9 @@ Basically, only fitting $A$, $D$ fails to provide a good result.
 | Mean squared error      | 0.00596536777619391 | 0.007807965450587863 |
 | Correlation coefficient | 0.6706306978729792  | 0.6216287490698504   |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=300 over 17, Test Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=300 over 17, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=300 over 17, Train Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=300 over 17, Train Set).png)
 
 **Exponent: 73/3**
 
@@ -287,9 +287,9 @@ Basically, only fitting $A$, $D$ fails to provide a good result.
 | Mean squared error      | 0.005965431990408115 | 0.007809033771437306 |
 | Correlation coefficient | 0.6706262817005308   | 0.6215582319310625   |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=73 over 3, Test Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=73 over 3, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Power-Law Regression Exponent=73 over 3, Train Set).png)
+![Comparison (Power-Law Regression](pics_CL090_230515\Comparison (Power-Law Regression Exponent=73 over 3, Train Set).png)
 
 #### Comparison
 
@@ -318,9 +318,9 @@ $$
 | Mean squared error      | 0.005965612679987845 | 0.007809965919858963 |
 | Correlation coefficient | 0.6706138550826338   | 0.6215183575736783   |
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Exponential Regression)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Exponential Regression, Test Set).png)
+![Comparison (Exponential Regression)](pics_CL090_230515\Comparison (Exponential Regression, Test Set).png)
 
-![Comparison of Sorted Predictions and Sorted Ground Truth (Exponential Regression)](pics_CL090_230515\Comparison of Sorted Predictions and Sorted Ground Truth (Exponential Regression, Train Set).png)
+![Comparison (Exponential Regression)](pics_CL090_230515\Comparison (Exponential Regression, Train Set).png)
 
 Exponential regression's performance is very close to that of power-law regression. Both cannot very well fit the end part, and cannot fit the beginning part.
 
@@ -440,36 +440,125 @@ p_i= \frac{e^{\beta_{i,0}+\beta_{i,1}X_1+\beta_{i,2}X_2+\dots+\beta_{i,N}X_N}}{\
 $$
 **Fitted Parameters** include a $J$ by $N$ matrix for coefficients and a $J$ length vector for intercepts.
 
-Considering that logistic regression is a classification, I apply two classifications, one for fitting (training) and the other for evaluation. 
+Considering that logistic regression is a classification, I apply two classifications to enhance the performance: one for fitting (training) and the other for evaluation. 
 
-For example, 
-
-In previous data division, I classify data into class_num (e.g., class_num = 160) intervals (hitogram, by np.digitize). Here, evaluate the results with the same number of classes (e.g., class_num = 160).
-
-
-
-The model is based on classifying data into class_num (e.g., class_num = 160) intervals (histogram, by np.digitize). Here, evaluate the results a smaller number of classes (e.g., reduced_class_num = 16), that is, for the example of class_num = 160 and reduced_class_num = 16, classes 0, 1, ..., 15 become one class, i.e., 0; ...; classes 144, 145, ..., 159 become one class, i.e., 15.
-
-
+For example, in the training stage, I classify data into class_num (e.g., class_num = 160) intervals (hitogram, by np.digitize); in test/evaluation stage, I evaluate the results with a same number of classes (e.g., reduced_class_num = 16). That is, for the example, class_num = 160 and reduced_class_num = 16, the in test/evaluation stage, classes 0, 1, ..., 15 become one class, i.e., 0; ...; classes 144, 145, ..., 159 become one class, i.e., 15.
 
 Fixing the reduced class number, I enumerate the original class number to see what a original class number is better.
 
+![](.\pics_CL090_230515\mse_correlation_r2_trend_curve_reduced_eval_reduced_class_num_16.png)
 
+For this cell, Max Original Class Number is 480. The corresponding result is as follows.
 
 **Results**:
 
+|                         | Train data          | Test data          |
+| ----------------------- | ------------------- | ------------------ |
+| R2 score                | 0.49425421012452153 | 0.3095552619991193 |
+| Mean squared error      | 1.7105263157894737  | 2.7222222222222223 |
+| Correlation coefficient | 0.7442081479296433  | 0.6060794440849583 |
+
+![Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Test Set)](C:\Users\Hollis\OneDrive\Liang Lab Research\Reseach\Fluo Data Fitting\pics_CL090_230515\Comparison (Logistic Linear Regression Reduced Evaluation)\Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Test Set).png)
+
+![Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Train Set)](C:\Users\Hollis\OneDrive\Liang Lab Research\Reseach\Fluo Data Fitting\pics_CL090_230515\Comparison (Logistic Linear Regression Reduced Evaluation)\Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Train Set).png)
+
+## Comparison of Different Regressions with Same Metric
+
+Classify all the predictions into 16 intervals/classes for the evaluation.
+
+### Ordinary Linear Regression
+
+|                         | Train data         | Test data           |
+| ----------------------- | ------------------ | ------------------- |
+| R2 score                | 0.4011018872884826 | 0.36944077498899164 |
+| Mean squared error      | 2.0255847953216373 | 2.486111111111111   |
+| Correlation coefficient | 0.6340286499988343 | 0.6292717941149766  |
+
+### Ridge Linear Regression
+
+|                         | Train data         | Test data           |
+| ----------------------- | ------------------ | ------------------- |
+| R2 score                | 0.3974276657381052 | 0.36944077498899164 |
+| Mean squared error      | 2.038011695906433  | 2.486111111111111   |
+| Correlation coefficient | 0.6311655529544047 | 0.6290805964856068  |
+
+### Elasticnet Linear Regression
+
+|                         | Train data         | Test data          |
+| ----------------------- | ------------------ | ------------------ |
+| R2 score                | 0.3775436432301804 | 0.2954645530603258 |
+| Mean squared error      | 2.1052631578947367 | 2.7777777777777777 |
+| Correlation coefficient | 0.6144590454550366 | 0.566099913342907  |
+
+### Power-Law Regression
+
+|                         | Train data          | Test data          |
+| ----------------------- | ------------------- | ------------------ |
+| R2 score                | 0.42660530746169045 | 0.3377366798767063 |
+| Mean squared error      | 1.939327485380117   | 2.611111111111111  |
+| Correlation coefficient | 0.653816054551323   | 0.6064419746929176 |
+
+### Exponential Regression
+
+|                         | Train data         | Test data           |
+| ----------------------- | ------------------ | ------------------- |
+| R2 score                | 0.4291988756148981 | 0.32716864817261115 |
+| Mean squared error      | 1.9305555555555556 | 2.6527777777777777  |
+| Correlation coefficient | 0.6558085630583136 | 0.5985681611539189  |
+
+### Logistic Regression
+
+|                         | Train data          | Test data          |
+| ----------------------- | ------------------- | ------------------ |
+| R2 score                | 0.49425421012452153 | 0.3095552619991193 |
+| Mean squared error      | 1.7105263157894737  | 2.7222222222222223 |
+| Correlation coefficient | 0.7442081479296433  | 0.6060794440849583 |
+
+## Delete Small Groups
+
+Delete groups (axons) with less than 3 components.
+
+### Exponential Regression
+
 |                         | Train data          | Test data           |
 | ----------------------- | ------------------- | ------------------- |
-| R2 score                | 0.32026901318017964 | 0.08762659621312197 |
-| Mean squared error      | 2.2989766081871346  | 3.5972222222222223  |
-| Correlation coefficient | 0.5910190720855697  | 0.47198973344177797 |
+| R2 score                | 0.42530852338508673 | 0.36239542051959495 |
+| Mean squared error      | 1.9437134502923976  | 2.513888888888889   |
+| Correlation coefficient | 0.6527532920188056  | 0.6251978930658115  |
 
-x
+### Logistic Regression
 
+|                         | Train data         | Test data          |
+| ----------------------- | ------------------ | ------------------ |
+| R2 score                | 0.4918767726507479 | 0.3095552619991193 |
+| Mean squared error      | 1.7185672514619883 | 2.7222222222222223 |
+| Correlation coefficient | 0.7430224939475898 | 0.6060794440849583 |
 
+## Decay Correction
 
-![](.\pics_CL090_230515\mse_correlation_r2_trend_curve_reduced_eval_reduced_class_num_16.png)
+*Does decay influence dFF?*
 
-Max Index: 29 
+For cell `CL090_230515` red data:
 
-Max Original Class Num: 480
+- mean(mean(rowdata1)) = 0.0664
+- mean(mean(rowdata2)) = 0.0498
+- mean(mean(rowdata3)) = 0.0252
+
+For cell `CL090_230515` green data:
+
+- mean(mean(rowdata1)) = 0.0378
+- mean(mean(rowdata2)) = 0.0456
+- mean(mean(rowdata3)) = 0.0377
+
+For cell `CL075_230303` red data:
+
+- mean(mean(rowdata1)) = 0.0278
+- mean(mean(rowdata2)) = 0.0160
+- mean(mean(rowdata3)) = 0.0139
+
+For cell `CL075_230303` green data:
+
+- mean(mean(rowdata1)) = -0.0066
+- mean(mean(rowdata2)) = -0.0019
+- mean(mean(rowdata3)) = -0.0081
+
