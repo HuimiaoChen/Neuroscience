@@ -1,4 +1,4 @@
-[Fluorescence Data Fitting Report](https://huimiaochen.github.io/Neuroscience/LiangLab/NeuroData/Fluo_Data_Fitting)
+[Fluorescence Data Fitting Report](https://huimiaochen.github.io/Neuroscience/LiangLab/Fluo_Data_Fitting)
 
 Detailed numerical and graphical results (with code):
 
