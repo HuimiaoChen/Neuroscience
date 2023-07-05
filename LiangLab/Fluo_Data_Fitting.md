@@ -458,9 +458,9 @@ For this cell, Max Original Class Number is 480. The corresponding result is as 
 | Mean squared error      | 1.7105263157894737  | 2.7222222222222223 |
 | Correlation coefficient | 0.7442081479296433  | 0.6060794440849583 |
 
-![Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Test Set)](C:\Users\Hollis\OneDrive\Liang Lab Research\Reseach\Fluo Data Fitting\pics_CL090_230515\Comparison (Logistic Linear Regression Reduced Evaluation)\Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Test Set).png)
+![Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Test Set)](.\pics_CL090_230515\Comparison (Logistic Linear Regression Reduced Evaluation)\Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Test Set).png)
 
-![Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Train Set)](C:\Users\Hollis\OneDrive\Liang Lab Research\Reseach\Fluo Data Fitting\pics_CL090_230515\Comparison (Logistic Linear Regression Reduced Evaluation)\Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Train Set).png)
+![Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Train Set)](.\pics_CL090_230515\Comparison (Logistic Linear Regression Reduced Evaluation)\Comparison (Logistic Linear Regression Reduced Evaluation 480 to 16, Train Set).png)
 
 ## Comparison of Different Regressions with Same Metric
 
