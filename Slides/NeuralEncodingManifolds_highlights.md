@@ -15,7 +15,7 @@
 
 ## Mapping and response structure of RGC and dLGN neurons
 
-![Mapping and response structure of RGC and dLGN neurons](RGC_dLGN_Fitting_v1.PNG)
+![Mapping and response structure of RGC and dLGN neurons](RGC_dLGN_Fitting_v1.png)
 
 **Figure 2. Mapping and response structure of RGC and dLGN neurons.**  
 (A) Mapping from RGC inputs to dLGN neurons using LASSO-regularized fitting.
